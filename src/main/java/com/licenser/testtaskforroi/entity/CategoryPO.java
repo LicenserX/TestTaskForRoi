@@ -20,6 +20,4 @@ public class CategoryPO extends AbstractPO{
     public void setType(String type) {
         this.type = type;
     }
-
-
 }
