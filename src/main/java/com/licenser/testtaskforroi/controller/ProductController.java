@@ -49,5 +49,4 @@ public class ProductController {
     public List<ProductTO> getByCategory(String type) {
         return service.getByCategory(type);
     }
-
 }

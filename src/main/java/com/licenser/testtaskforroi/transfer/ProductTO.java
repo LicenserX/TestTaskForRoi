@@ -44,5 +44,4 @@ public class ProductTO {
     public void setCategory(Set<CategoryTO> category) {
         this.category = category;
     }
-
 }

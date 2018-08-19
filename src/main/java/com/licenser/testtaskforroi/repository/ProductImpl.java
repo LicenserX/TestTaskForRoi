@@ -41,6 +41,4 @@ public class ProductImpl implements Product {
         poCriteriaQuery.where(cb.equal(join.get(CategoryPO_.type), type));
         return em.createQuery(poCriteriaQuery).getResultList();
     }
-
-
 }
